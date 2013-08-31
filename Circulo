@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void circulo(float y){
+	float re = (y*y)*3.14;
+	printf ("El area del circulo con radio %f es: %f\n", y, re);
+}
+
+
+main(){
+	float x;
+	printf ("Ingrese el valor del radio: ");
+	scanf ("%f", &x);
+	circulo (x);
+}
