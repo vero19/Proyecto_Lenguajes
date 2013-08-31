@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void main(){
+
 	int opcion;
 	printf("---- Menu ---\n");
 	printf("1. Agregar amigos\n");
@@ -9,4 +10,5 @@ void main(){
 	printf("\n");
 	printf("Ingrese la opcion deseada: ");
 	scanf("%d",&opcion);
+
 }
