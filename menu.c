@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
+//Prueba para realizar commint a un archivo ya existente
 
 /*struct amigos
 se define un struct para almacenar los datos
