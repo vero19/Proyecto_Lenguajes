@@ -22,6 +22,7 @@ amigos.txt que funciona como la agenda de amigos
 void agregarAmigos(){
 	struct amigos amg;
 	char nombre[100],ip[100],puerto[100];
+	char prueba[5];
 	printf("\nIndique el nombre de usuario ");
 	scanf("%s",nombre);
 	strcpy(amg.usuario,nombre);
